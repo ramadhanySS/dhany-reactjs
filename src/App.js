@@ -1,10 +1,15 @@
-import Komponent from "./Materi/1komponen";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import Index from './Materi';
+// import FormRegistrasi from './Materi/form/formRegistrasi/formRegistrasi';
+// import Form from './Materi/form';
+
+import RegistrationForm from "./Materi/form/formRegistrasi/formRegistrasi";
+
 
 function App() {
   return (
     <div className="App">
-      <Komponent/>
+      <RegistrationForm/>
+      {/* <FormRegistrasi/> */}
     </div>
   );
 }
